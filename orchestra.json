@@ -1,0 +1,13 @@
+{
+	"name": "Ostreidae",
+	"description": "Ostreidae blog",
+	"author": "Kakigaki Richigi",
+	"url": "kakirigi.com",
+	"version": "1.0.0",
+	"config": {
+		"handles": "blog"
+	},
+	"provide": [
+		"Orchestra\\Story\\StoryServiceProvider"
+	]
+}

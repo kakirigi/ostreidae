@@ -1,0 +1,37 @@
+{
+	"name": "kakirigi/ostreidae",
+	"description": "Blog Extension for Orchestra Platform 2",
+	"license": "MIT",
+	"keywords": ["orchestra-platform", "orchestral", "laravel", "blog"],
+	"authors": [
+		{
+			"name": "Kakigaki Richigi",
+			"email": "kakirigi@gmail.com",
+			"homepage": "kakirigi.com"
+		}
+	],
+	"autoload": {
+		"classmap": [
+			"src/migrations"
+		],
+		"psr-0": {
+			"Orchestra\\Story" : "src/"
+		}
+	},
+	"require": {
+		"php": ">=5.3.3",
+		"dflydev/markdown": "1.0.*"
+	},
+	"require-dev": {
+		"mockery/mockery": "0.8.*",
+		"orchestra/testbench": "2.1.*",
+		"orchestra/foundation": "2.1.*",
+		"packagist/yuicompressor-bin": "2.4.8"
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.0"
+		}
+	},
+	"minimum-stability": "dev"
+}
