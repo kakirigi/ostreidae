@@ -20,15 +20,15 @@ class PostsController extends ContentController
 
         $this->resource = 'storycms.posts';
 
-        $this->beforeFilter('orchestra.story:create-post', array(
+        $this->beforeFilter('kakirigi.ostreidae:create-post', array(
             'only' => array('create', 'store'),
         ));
 
-        $this->beforeFilter('orchestra.story:update-post', array(
+        $this->beforeFilter('kakirigi.ostreidae:update-post', array(
             'only' => array('edit', 'update'),
         ));
 
-        $this->beforeFilter('orchestra.story:delete-post', array(
+        $this->beforeFilter('kakirigi.ostreidae:delete-post', array(
             'only' => array('delete', 'destroy'),
         ));
     }

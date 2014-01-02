@@ -39,7 +39,7 @@ Event::listen('orchestra.validate: extension.kakirigi/ostreidae', function (& $r
 |
 */
 
-Event::listen('orchestra.story.editor: markdown', function () {
+Event::listen('kakirigi.ostreidae.editor: markdown', function () {
     $asset = Asset::container('orchestra/foundation::footer');
     $asset->script('editor', 'packages/kakirigi/ostreidae/vendor/editor/editor.js');
     $asset->style('editor', 'packages/kakirigi/ostreidae/vendor/editor/editor.css');

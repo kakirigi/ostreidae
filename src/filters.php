@@ -14,8 +14,8 @@ use Orchestra\Story\Facades\StoryFormat;
 |
 */
 
-Route::filter('orchestra.story.editor', function ($request, $route, $format = '') {
-    Event::fire("orchestra.story.editor: {$format}");
+Route::filter('kakirigi.ostreidae.editor', function ($request, $route, $format = '') {
+    Event::fire("kakirigi.ostreidae.editor: {$format}");
 });
 
 /*
@@ -27,7 +27,7 @@ Route::filter('orchestra.story.editor', function ($request, $route, $format = ''
 |
 */
 
-Route::filter('orchestra.story', function ($request, $route, $value = '') {
+Route::filter('kakirigi.ostreidae', function ($request, $route, $value = '') {
     list($action, $type) = explode('-', $value);
 
     $acl = Acl::make('kakirigi/ostreidae');

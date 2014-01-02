@@ -33,7 +33,7 @@ abstract class EditorController extends Controller
     {
         $format = StoryFormat::get(Input::get('format'));
 
-        $this->beforeFilter("orchestra.story.editor:{$format}");
+        $this->beforeFilter("kakirigi.ostreidae.editor:{$format}");
         $this->editorFormat = $format;
     }
 

@@ -11,6 +11,6 @@ class StoryFormat extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'orchestra.story.format';
+        return 'kakirigi.ostreidae.format';
     }
 }

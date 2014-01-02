@@ -19,15 +19,15 @@ class PagesController extends ContentController
 
         $this->resource = 'storycms.pages';
 
-        $this->beforeFilter('orchestra.story:create-page', array(
+        $this->beforeFilter('kakirigi.ostreidae:create-page', array(
             'only' => array('create', 'store'),
         ));
 
-        $this->beforeFilter('orchestra.story:update-page', array(
+        $this->beforeFilter('kakirigi.ostreidae:update-page', array(
             'only' => array('edit', 'update'),
         ));
 
-        $this->beforeFilter('orchestra.story:delete-page', array(
+        $this->beforeFilter('kakirigi.ostreidae:delete-page', array(
             'only' => array('delete', 'destroy'),
         ));
     }

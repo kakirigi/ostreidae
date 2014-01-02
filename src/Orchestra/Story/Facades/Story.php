@@ -11,6 +11,6 @@ class Story extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'orchestra.story';
+        return 'kakirigi.ostreidae';
     }
 }
