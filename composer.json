@@ -7,7 +7,7 @@
 		{
 			"name": "Kakigaki Richigi",
 			"email": "kakirigi@gmail.com",
-			"homepage": "kakirigi.com"
+			"homepage": "http://kakirigi.com"
 		}
 	],
 	"autoload": {
@@ -27,11 +27,6 @@
 		"orchestra/testbench": "2.1.*",
 		"orchestra/foundation": "2.1.*",
 		"packagist/yuicompressor-bin": "2.4.8"
-	},
-	"extra": {
-		"branch-alias": {
-			"dev-master": "1.0"
-		}
 	},
 	"minimum-stability": "dev"
 }
